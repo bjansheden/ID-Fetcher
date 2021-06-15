@@ -1,0 +1,13 @@
+{
+    "name": "ID-Fetcher",
+    "version": "2.0",
+    "description": "When loading a page, ID-Fetcher automatically copies the ID for either the video or the channel. Created by Billy Jansheden.",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "js": ["background.js"]
+      }]
+}
